@@ -1,0 +1,47 @@
+/*Cuerpo*/
+
+body {
+  background: #f5f6f7;
+  color: #1b1b32;
+  font-family: Helvetica;
+  margin: 0;
+}
+
+/*Imagen id-logo*/
+#logo {
+  width: max(100px, 18vw);
+  background-color: #0a0a23;
+  aspect-ratio: 35 / 4;
+  padding: 0.4rem;
+}
+
+/*Encabezado*/
+header {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  background-color: #1b1b32;
+}
+
+/*Titulo Principal*/
+h1 {
+  color: #f1be32;
+  font-size: min(5vw, 1.2em);
+}
+
+/*Selector apuntando hacia los elementos de lista desordenada */
+nav>ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/*Titulo Principal y Subtitulo*/
+h1,
+h2 {
+  font-family: Verdana Tahoma;
+}
+
+/*Borde al SubTitulo*/
+h2 {
+  border: 4px solid #dfdfe2;
+}
